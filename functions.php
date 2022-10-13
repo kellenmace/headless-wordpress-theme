@@ -12,3 +12,6 @@ add_action( 'template_redirect', function() {
         die();
     }
 } );
+
+// Enable featured images
+add_theme_support( 'post-thumbnails' );
